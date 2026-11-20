@@ -61,7 +61,7 @@ The source file defines these settings near the top, making them easy to adjust.
 Install the dependencies:
 
 ```bash
-python -m pip install numpy pandas matplotlib yfinance
+pip install -r requirements.txt
 ```
 
 On Windows, you can also use `py -m pip install numpy pandas matplotlib yfinance` if `python` is not recognized.
@@ -108,6 +108,7 @@ This project is intended to demonstrate the mechanics of an LSTM-style model rat
 ```text
 LSTM-Stock-Price-Prediction/
 ├── README.md
+├── requirements.txt
 └── Term Project - LSTM Model.py
 ```
 
